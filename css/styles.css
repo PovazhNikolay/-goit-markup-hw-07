@@ -16,6 +16,7 @@ html {
   --fot-color: #e7e9fc;
   --border-color: #8e8f99;
   --bg-link-dark: rgba(255, 255, 255, 0.1);
+  --futer-hero-backcolor: #2E2F42;
   --transition-direction-func: 250ms;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -48,6 +49,15 @@ body {
 .link {
   text-decoration: none;
 }
+
+
+
+/* .container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+} */
 
 /* заголовок -----------------------------*/
 
@@ -512,12 +522,7 @@ body {
 
 /* <-- заголовок -- >  */
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+
 
 .container-head {
   display: flex;
@@ -665,14 +670,14 @@ body {
 }
 
 .subscr-icon {
-  fill: var(--menu-eff-color);
+  fill: var(--brand-color);
   display: flex;
 }
 
 .subscr-btn:hover,
 .subscr-btn:focus {
   background-color: var(--menu-focus-color);
-  color: var(--menu-eff-color);
+  color: var(--border-color);
 }
 
 /* ----------FOTER_SUBSCR------------ */
@@ -800,27 +805,6 @@ body {
   transition-duration: var(--transition-direction-func);
 }
 
-/* ---ANIMATION--- */
-
-@keyframes changeBgColor {
-  0% {
-    background-color: teal;
-  }
-
-  50% {
-    background-color: orange;
-  }
-
-  100% {
-    background-color: deepskyblue;
-  }
-}
-
-.box {
-  animation-name: changeBgColor;
-}
-
-/* ---ANIMATION--- */
 
 .modal-close-btn {
   position: absolute;

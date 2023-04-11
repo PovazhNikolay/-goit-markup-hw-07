@@ -15,6 +15,7 @@
 
     <title>WEBSTUDIO</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -69,13 +70,94 @@
             </li>
           </ul>
         </address>
+
+        <!-- -----------menu----------- -->
+
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="burger-icon" width="32" height="32">
+            <use href="./images/icons.svg#ico-burger"></use>
+          </svg>
+        </button>
+
+        <div class="mobile-menu is-open" data-menu>
+          <div class="conteiner mobile-menu-conteiner">
+            <button class="modal-close" data-menu-close>
+              <svg class="close" width="8" height="8">
+                <use href="./images/icons.svg#icon-cross"></use>
+              </svg>
+            </button>
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-menu-nav-items">
+                <a href="index.html" class="main-page-mobile link">Studio</a>
+              </li>
+              <li class="mobile-menu-nav-items">
+                <a href="portfolio.html" class="mobile-menu-nav-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-items">
+                <a href="" class="mobile-menu-nav-link link">Contacts</a>
+              </li>
+            </ul>
+            <div class="">
+              <ul class="mobile-menu-contacts list">
+                <li class="mobile-menu-contacts-items">
+                  <a
+                    class="mobile-menu-tel link"
+                    id="tel"
+                    href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mobile-menu-contacts-items">
+                  <a
+                    class="mobile-menu-email link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+              <ul class="mobile-menu-social-block list">
+                <li class="mobile-menu-sicial">
+                  <a href="" class="mobile-menu-social-links link">
+                    <svg class="mobile-social-icons" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-menu-sicial">
+                  <a href="" class="mobile-menu-social-links link">
+                    <svg class="mobile-social-icons" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-menu-sicial">
+                  <a href="" class="mobile-menu-social-links link">
+                    <svg class="mobile-social-icons" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-menu-sicial">
+                  <a href="" class="mobile-menu-social-links link">
+                    <svg class="mobile-social-icons" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- -----------menu----------- -->
       </div>
     </header>
 
     <main>
       <!-- <section 1 hero> ------------------------------------------->
 
-      <section class="section-hero">
+      <!-- <section class="section-hero">
         <div class="container-hero container">
           <h1 class="section-hero-title">
             Effective Solutions for Your Business
@@ -89,11 +171,11 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- <section>2 info -->
 
-      <section class="step">
+      <!-- <section class="step">
         <div class="container-info">
           <h2 class="vis-hidden sect-info-title">
             Our goal is to identify the business
@@ -157,11 +239,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- <section> 3 product -->
 
-      <section class="sect-prod">
+      <!-- <section class="sect-prod">
         <div class="container">
           <h2 class="section-prod-title title-marg">What are we doing</h2>
           <ul class="list-item list">
@@ -170,11 +252,11 @@
             <li><img src="./images/img3.jpg" alt="product3" width="360" /></li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- <section> 4 team -->
 
-      <section class="sect-team section">
+      <!-- <section class="sect-team section">
         <div class="container">
           <h2 class="section-team-main">Our Team</h2>
           <ul class="list-item list">
@@ -360,11 +442,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- ---------section-customers----------- -->
 
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h1 class="title-custom">Customers</h1>
           <ul class="custum-list list">
@@ -416,11 +498,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- footer -->
 
-    <footer class="footer link">
+    <!-- <footer class="footer link">
       <div class="container foot-block">
         <div class="footer-style">
           <a class="logo-footer link" href="./index.html"
@@ -469,11 +551,11 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <!-- ----block-subscribe------ -->
+    <!-- ----block-subscribe------ -->
 
-        <form class="subscr-item" name="subscribe" autocomplete="on">
+    <!-- <form class="subscr-item" name="subscribe" autocomplete="on">
           <b class="foot-soc">Subscribe</b>
           <div class="subscr-wrap">
             <input
@@ -492,14 +574,14 @@
               </span>
             </button>
           </div>
-        </form>
-        <!-- ----block-subscribe------ -->
-      </div>
-    </footer>
+        </form> -->
+    <!-- ----block-subscribe------ -->
+    <!-- </div>
+    </footer> -->
 
     <!-- ------------------------modal----------------------  -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal modal-form">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -594,10 +676,18 @@
           <button class="form-button" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <!-- ------------------------modal----------------------  -->
 
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
+
+    <script
+      defer=""
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
