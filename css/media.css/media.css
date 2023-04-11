@@ -16,15 +16,6 @@ img {
   display: block;
 }
 
-.container {
-  max-width: 428px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: hsl(188, 43%, 72%);
-}
-
 :root {
   --brand-color: #2e2f42;
   --team-color: #f4f4fd;
@@ -39,6 +30,32 @@ img {
   --transition-direction-func: 250ms;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+    background-color: rgb(164, 92, 110);
+  }
+  .header-menu {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(188, 43%, 72%);
+}
+
+
+
+
+
 
 /* 0---768px */
 
